@@ -173,6 +173,7 @@ nav {
   padding: 8px 16px;
   background: rgba(47, 47, 47, 0.3);
   border-radius: 4px;
+  z-index: 5;
 }
 
 .tertiary-button {
@@ -183,3 +184,124 @@ nav {
   letter-spacing: 0.005em;
   text-decoration: none;
 }
+
+/* .hero-img {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  bottom: 500px;
+  right: 300px;
+} */
+
+.section-1 {
+  background-color: #2f2f2f;
+  width: 100%;
+  padding: 10px;
+  margin-top: 200px;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 44px;
+  flex-direction: column;
+}
+
+.column-left {
+  width: fit-content;
+  /* width: 50%; */
+  /* width: 523px; jangan di kasih height */
+  margin: 0px;
+}
+
+.column-left h3 {
+  font-family: "Chillax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.045em;
+  margin: 0;
+}
+
+.column-right {
+  width: 551px;
+  /* height: 393px; jangan di kasih height */
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  padding: 16px 20px;
+  flex-direction: column;
+
+  gap: 4px;
+  background: linear-gradient(
+    143.53deg,
+    rgba(255, 255, 255, 0.2) -90.47%,
+    rgba(255, 255, 255, 0) 215.56%
+  );
+  /* Neutral/500 */
+
+  border: 1px solid #babec1;
+  backdrop-filter: blur(74px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+  align-content: flex-start;
+}
+
+.card .content-desc {
+  padding: 0px 0px 0px 32px;
+}
+
+.card .content {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  align-items: center;
+}
+
+.card .content p {
+  flex: 1;
+}
+
+.arrow {
+  width: 17px;
+  height: 10px;
+}
+
+.card .open {
+  padding: 40px;
+  max-height: 100%;
+}
+
+/* Tablet */
+
+/* Responsive */
+/* 
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    margin: 150px 0px;
+    padding: 100px;
+  }
+
+  .column-left {
+    width: 50%;
+    width: 522px;
+    height: 393px;
+  }
+
+  .cards {
+    margin-top: 40px;
+  }
+} */
