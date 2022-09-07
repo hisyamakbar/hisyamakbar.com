@@ -8,13 +8,12 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #2f2f2f;
   color: #fff;
-  margin: 0 160px;
 }
 
 /* Navbar*/
 
 nav {
-  margin-top: 40px;
+  margin-top: 104px;
 }
 
 .navbar .navbar-items {
@@ -41,7 +40,7 @@ nav {
   align-items: r;
 }
 
-.navbar .navbar-items .navbar-contact-me {
+.navbar .navbar-items .secondary-button {
   display: flex;
   justify-content: end;
   text-decoration: none;
@@ -51,4 +50,136 @@ nav {
 
   background: rgba(47, 47, 47, 0.3);
   border-radius: 4px;
+}
+
+.navbar .navbar-items .active {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #ffffff;
+  border-radius: 99px;
+}
+
+.navbar .navbar-items div a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 99px;
+
+  color: #ffffff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  margin-top: 40px;
+  gap: 68px;
+  justify-content: space-between;
+}
+
+.hero-left {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero-left .hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-left .hero-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.005em;
+}
+
+.hero-left .hero-content span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+
+  padding: 0px 16px;
+
+  color: #2f2f2f;
+  background: #ffffff;
+  border-radius: 99px;
+}
+
+.hero-left h1 {
+  font-family: "Chillax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.005em;
+}
+
+.hero-left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-left hr {
+  width: 140px;
+  border-top: 1px solid #fff;
+
+  border-radius: 99px;
+}
+
+.primary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+
+  color: #ffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+
+  background: #33cc99;
+  border-radius: 4px;
+
+  width: 209px;
+  height: 60px;
+}
+
+.secondary-button {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  background: rgba(47, 47, 47, 0.3);
+  border-radius: 4px;
+}
+
+.tertiary-button {
+  color: #33cc99;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-decoration: none;
 }
