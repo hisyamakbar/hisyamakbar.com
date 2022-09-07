@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #2f2f2f;
+  color: #fff;
+  margin: 0 160px;
+}
+
+/* Navbar*/
+
+nav {
+  margin-top: 40px;
+}
+
+.navbar .navbar-items {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+
+.navbar .navbar-items div {
+  display: flex;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+.navbar .navbar-items div a {
+  text-decoration: none;
+  padding: 8px 16px;
+
+  color: #808080;
+}
+
+.navbar .navbar-items .navbar-item-contact-us {
+  margin: 0px;
+  align-items: r;
+}
+
+.navbar .navbar-items .navbar-contact-me {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  padding: 8px 16px;
+
+  color: #ffffff;
+
+  background: rgba(47, 47, 47, 0.3);
+  border-radius: 4px;
+}
