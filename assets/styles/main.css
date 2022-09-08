@@ -289,6 +289,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  padding: 0 100px;
 }
 
 .section-2 .section-2-heading {
@@ -352,6 +353,15 @@ nav {
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
+}
+
+.cards-tools .card-heading .card-title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #909090;
 }
 
 /* Tablet */
